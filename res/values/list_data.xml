@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string-array name="week_days">
+       <item >Monday</item>
+        <item >Tuesday</item>
+        <item >Wednesday</item>
+        <item >Thursday</item>
+        <item >Friday</item>
+        <item >Saturday</item>
+   </string-array>
+    
+    <string-array name="monday">
+        <item >1. PDC</item>
+        <item >2. Environmental Studies</item>
+        <item >3. EMTL</item>
+        <item >4. Technical Seminar</item>
+        <item >5 to 8. PDC LAB/ECA LAB</item>
+    </string-array>
+    
+    <string-array name="tuesday">
+        <item >1. Environmental Studies</item>
+        <item >2. STLD</item>
+        <item >3. EECS</item>
+        <item >4. PTSP</item>
+        <item >5. BME </item>
+        <item >6. PDC</item>
+        <item >7. Technical Seminar</item>
+        
+    </string-array>
+    
+    <string-array name="wednesday">
+        <item >1. EMTL</item>
+        <item >2. EECS</item>
+        <item >3. Environmental Studies</item>
+        <item >4. STLD </item>
+        <item >5. PDC</item>
+        <item >6. BME</item>
+        <item >7. PTSP </item>
+    </string-array>
+    
+    <string-array name="thursday">
+        <item>1. BME</item>
+        <item>2. EMTL</item>
+        <item>3. Environmental Studies</item>
+        <item>4. PTSP</item>
+        <item>5. STLD</item>
+        <item>6. EECS</item>
+        <item >7. PDC</item>
+        
+    </string-array>
+    
+    <string-array name="friday">
+        <item>1 to 4. PDC LAB/ECA LAB</item>
+        <item>5. EMTL</item>
+        <item>6. STLD</item>
+        <item>7. PTSP</item>
+        
+    </string-array>
+    
+    <string-array name="saturday">
+        <item>1. PDC</item>
+        <item>2. BME</item>
+        <item>3. EMTL</item>
+        <item>4. PTSP</item>
+        <item>5 to 8. Technical Association</item>
+        
+        
+    </string-array>
+</resources>

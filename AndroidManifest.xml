@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.c1timetable"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+         android:theme="@android:style/Theme.Black.NoTitleBar" >
+        <activity
+            android:name="com.example.c1timetable.MainListView"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Monday"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MONDAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Tuesday"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.TUESDAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Wednesday"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.WEDNESDAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Thursday"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.THURSDAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Friday"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.FRIDAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Saturday"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SATURDAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <receiver android:name=".TheWidget" android:label="@string/app_name" >
+            <intent-filter >
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data 
+                android:name="android.appwidget.provider" 
+                android:resource="@xml/widget_stuff"/>
+            
+        </receiver>
+    </application>
+
+</manifest>
